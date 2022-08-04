@@ -1,0 +1,155 @@
+.cont0{
+    height: 600px;
+    width: 100%;
+   background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url("hmpg.jpg") ;
+
+   
+  
+   background-size: cover;
+   
+    position: absolute;
+    top: 2px;
+    padding: 2px 10px 10px 0;
+       
+}
+
+.navbar ul{
+    overflow: auto;
+}
+.navbar{
+    text-align: right;
+    
+    
+    height: 70px;
+}
+
+.navbar li{
+    list-style: none;
+    padding: 2px 5px;
+    margin: 2px 15px;
+    display: inline-block;
+}
+.navbar li a{
+    
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px ;
+    color: white;
+    font-weight: bold;
+
+}
+a:hover{
+    background-color: #f5634b;
+
+}
+button{
+    padding: 6px 5px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+button:hover{
+    color: #f5634b;
+}
+
+#li1{
+    float: left;
+    margin: 0px;
+    
+    
+}
+h1{
+    color: #f5634b;
+    font-size: 50px;
+    font-family:UnifrakturCook;
+    margin-top:0px;
+    margin-bottom: 50px;
+    
+
+}
+#subhead{
+    color: white;
+    font-family: Barlow Condensed;
+    font-size: 100px;
+    margin: 60px 0 20px  60px ;
+    font-weight: 700px;
+    line-height: 100px;
+    letter-spacing: .5px
+}
+#btn1{
+    margin-left: 65px;
+    padding: 20px 10px;
+    height: 65px;
+    width: 200px;
+}
+#whyjoin{
+    font-family:arial ;
+    color:#f5634b;
+   
+    font-size: 40px;
+    position: relative;
+    top: 710px;
+   text-align: center;
+}
+
+.box{
+   font-size:20px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color:rgb(199, 65, 65) ;
+   text-align: center;
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    box-shadow: rgba(240, 239, 239, 0.842) 2px 3px 1px 1px;
+    border-radius: 20px;
+    
+}
+.boximg{
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    border-radius: 20px;
+}
+/* #box1{
+    position: absolute;
+    top: 920px;
+
+
+}
+#box2{
+    position: absolute;
+    top: 920px;
+}
+#box3{
+    position: absolute;
+    top: 920px;  
+} */
+.cont1{
+    display: flex;
+    height: 800px;
+    width: 100%;
+   
+    position: absolute;
+    top: 830px;
+    justify-content: space-around;
+    padding: 20px 0 ;
+    
+}
+.row{
+background-color: teal;
+width: 100px;
+height: 100px;
+}
+.cont2{
+    position: absolute;
+    top: 1200px;
+    margin: 20px 10px;
+    background-color: chocolate;
+}
+#row1{
+    color: cyan;
+    font-size: 90px;
+}
